@@ -1,0 +1,65 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\yarn\bin\yarn.js add react-native-reanimated@next react-native-gesture-handlers
+
+PATH: 
+  D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\.bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;D:\Softwares and Programs\Git\cmd;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\150\Tools\Binn\;C:\Program Files\dotnet\;C:\ProgramData\chocolatey\bin;D:\Programming\Anaconda\Scripts;C:\Program Files\nodejs\;C:\Program Files\OpenJDK\openjdk-8u302-b08\bin;D:\Programming\Anaconda;D:\Programming\Anaconda\Library\mingw-w64\bin;D:\Programming\Anaconda\Library\usr\bin;D:\Programming\Anaconda\Library\bin;D:\Programming\Anaconda\Scripts;C:\Users\aseed\AppData\Local\Microsoft\WindowsApps;C:\Users\aseed\AppData\Local\GitHubDesktop\bin;C:\Users\aseed\AppData\Local\Programs\mongosh\;C:\Users\aseed\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\aseed\.dotnet\tools;C:\Users\aseed\AppData\Local\atom\bin;C:\Users\aseed\AppData\Roaming\npm;C:\Users\aseed\Documents\flutter\bin;C:\tools\dart-sdk\bin;C:\Users\aseed\AppData\Roaming\Pub\Cache\bin;C:\Users\aseed\AppData\Local\Android\Sdk\tools;C:\Users\aseed\AppData\Local\Android\Sdk\platform-tools;;D:\Programming\apps\DataSpell 213.5352.7\bin;
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.10.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/react-native-gesture-handlers: Not found
+      at Request.params.callback [as _callback] (D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\yarn\lib\cli.js:67029:18)
+      at Request.self.callback (D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\yarn\lib\cli.js:140883:22)
+      at Request.emit (node:events:390:28)
+      at Request.<anonymous> (D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\yarn\lib\cli.js:141855:10)
+      at Request.emit (node:events:390:28)
+      at IncomingMessage.<anonymous> (D:\Projects\WebStormProjects\mobileapplicationdevelopment\CarAssignment\node_modules\yarn\lib\cli.js:141777:12)
+      at Object.onceWrapper (node:events:509:28)
+      at IncomingMessage.emit (node:events:402:35)
+      at endReadableNT (node:internal/streams/readable:1343:12)
+      at processTicksAndRejections (node:internal/process/task_queues:83:21)
+
+npm manifest: 
+  {
+    "main": "node_modules/expo/AppEntry.js",
+    "scripts": {
+      "start": "expo start",
+      "android": "expo start --android",
+      "ios": "expo start --ios",
+      "web": "expo start --web",
+      "eject": "expo eject"
+    },
+    "dependencies": {
+      "@react-navigation/drawer": "^6.1.8",
+      "@react-navigation/native": "^6.0.6",
+      "@react-navigation/native-stack": "^6.2.5",
+      "expo": "~44.0.0",
+      "expo-status-bar": "~1.2.0",
+      "react": "17.0.1",
+      "react-dom": "17.0.1",
+      "react-native": "0.64.3",
+      "react-native-gesture-handler": "~2.1.0",
+      "react-native-reanimated": "~2.3.1",
+      "react-native-safe-area-context": "3.3.2",
+      "react-native-screens": "~3.10.1",
+      "react-native-web": "0.17.1",
+      "yarn": "^1.22.17"
+    },
+    "devDependencies": {
+      "@babel/core": "^7.12.9"
+    },
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
